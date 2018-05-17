@@ -18,7 +18,7 @@ if [ -z ${partition} ]; then
 fi
 
 wget https://github.com/FanhuaCloud/grubfm-install/raw/master/grubfm.iso -O ${directory}/grubfm.iso
-wget https://github.com/FanhuaCloud/grubfm-install/raw/master/memdisk -P ${directory}/grubfm.iso
+wget https://github.com/FanhuaCloud/grubfm-install/raw/master/memdisk -P ${directory}/memdisk
 
 echo "
 #######GRUB Manager#########

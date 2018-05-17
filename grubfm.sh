@@ -17,8 +17,8 @@ if [ -z ${partition} ]; then
     partition="(hd0,msdos1)"
 fi
 
-wget https://github.com/FanhuaCloud/grubfm-install/raw/master/grubfm.iso -P ${directory}
-wget https://github.com/FanhuaCloud/grubfm-install/raw/master/memdisk -P ${directory}
+wget https://github.com/FanhuaCloud/grubfm-install/raw/master/grubfm.iso -O ${directory}/grubfm.iso
+wget https://github.com/FanhuaCloud/grubfm-install/raw/master/memdisk -P ${directory}/grubfm.iso
 
 echo "
 #######GRUB Manager#########
